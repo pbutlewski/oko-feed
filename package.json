@@ -20,7 +20,7 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": "concurrently \"parcel src/index.html\" \"json-server --watch server.json\" ",
+    "start": "concurrently \"parcel src/index.html --open\" \"json-server --watch server.json\" ",
     "dev": "parcel src/index.html",
     "api": "json-server --watch server.json"
   },
