@@ -1,1 +1,5 @@
-# oko-feed
+# Newsfeed - Zadanie próbne oko.press
+## Jak uruchomić?
+```
+npm start / yarn start
+```
